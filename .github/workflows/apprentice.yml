@@ -1,1 +1,8 @@
-
+name: Apprentice
+on: [pull_request, issues]
+jobs:
+  apprentice:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Apprentice Check
+        uses: fomantic/apprentice-action@master
