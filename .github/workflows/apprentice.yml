@@ -1,5 +1,5 @@
 name: Apprentice
-on: [pull_request, issues]
+on: [pull_request, issues, issue_comment, pull_request_review]
 jobs:
   apprentice:
     runs-on: [ubuntu-latest]
